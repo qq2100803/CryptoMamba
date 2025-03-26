@@ -183,6 +183,8 @@ if __name__ == "__main__":
         callbacks.append(checkpoint_callback)
 
     max_epochs = config.get('max_epochs', args.max_epochs)
+    model.set_normalization_coeffs(data_module.factors)
+
     trainer = pl.Trainer(accelerator=args.accelerator, 
                          devices=args.devices,
                          max_epochs=max_epochs,
