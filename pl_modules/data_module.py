@@ -52,6 +52,7 @@ class CMambaDataModule(pl.LightningDataModule):
         self.num_workers = num_workers
         self.distributed_sampler = distributed_sampler
         self.window_size = window_size
+        self.factors = None
 
         self.converter = DataConverter(data_config)
         train, val, test = self.converter.get_data()
