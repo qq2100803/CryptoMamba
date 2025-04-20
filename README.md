@@ -1,7 +1,3 @@
-<p align="center">
- <img src="assets/logo.png" alt="drawing" width="300" style="float: center;"/> 
-</p>
-
 # 🚀 CryptoMamba: Leveraging State Space Models for Accurate Bitcoin Price Prediction
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/license/MIT)
