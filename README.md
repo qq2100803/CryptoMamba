@@ -56,7 +56,7 @@ If you have difficulties installing <code>mamba_ssm</code>, please follow the in
 ### Data
 
 <p align="justify" > 
-You can find the processed data that we use in <a href="./data/2018-17-09_2024-16-09_1440">here</a>. If you want to use another data configuration, you should change the configuration in <a href="./configs/data_configs/mode_1.yaml">the data config file</a>. Note that the <code>data_path</code> should point to the raw data file with a similar format to <a href="./data/one_day_trade.csv">this</a>.
+You can find the processed data that we use in <a href="./data/2018-09-17_2024-09-16_86400">here</a>. If you want to use another data configuration, you should change the configuration in <a href="./configs/data_configs/mode_1.yaml">the data config file</a>. Note that the <code>data_path</code> should point to the raw data file with a similar format to <a href="./data/one_day_pred.csv">this</a>.
 </p>
 
 
