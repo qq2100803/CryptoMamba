@@ -109,12 +109,13 @@ If you don't provide a value for `DATE`, the code automatically predicts one day
 | LSTM | 2672.7 | 3.609 | 2094.3 | 204K |
 | Bi-LSTM | 2325.6 | 3.072 | 1778.8 | 569k |
 | GRU | 1892.4 | 2.385 | 1371.2 | 153k |
+| iTransformer-v | 1826.9 | 2.4260 | 1334.3 | 201k |
 | S-Mamba | 1717.4 | 2.248 | 1239.9 | 330k |
 | CryptoMamba | **1713.0** | **2.171** | **1200.9** | **136k** |
 | LSTM-v | 2202.1 | 2.896 | 1668.9 | 204K |
 | Bi-LSTM-v | 2080.2 | 2.738 | 1562.5 | 569k |
 | GRU-v | 1978.0 | 2.526 | 1454.3  | 153k |
-| iTransformer-v | 1779.9 | 2.427 | 1322.1 | 301k |
+| iTransformer-v | 1779.9 | 2.427 | 1322.1 | 201k |
 | S-Mamba-v | 1651.6 | 2.215 | 1209.7 | 330k |
 | CryptoMamba-v | **1598.1** | **2.034** | **1120.7** | **136k** |
 
